@@ -1,0 +1,6 @@
+Parent Component:
+   Available amount: {{amount}} 
+   <button (click)="deposit()">Deposit 100</button>
+   <app-child [(amount)]="amount"> </app-child>
+   <!-- <app-child [amount]="amount" (amountChange)="this.amount= $event"> </app-child> -->
+<!-- suffix Change will automatically appemd in the EventBinding if we use in the chaild component -->
